@@ -6,6 +6,7 @@ public class CC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Bank_guy guy = new Bank_guy(0, "joe", "fazer", 15829, 5);
+        guy.list_to_null();
         while (true) {
             String choice = sc.next();
             switch (choice) {
